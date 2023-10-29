@@ -14,7 +14,7 @@ const Home = () => {
                     </p>
                 ) : (
                     <p className="home-login-signup">
-                        <Link to="/login" className="home-login">Log In</Link> or <Link to="/signup" className="home-signup">Sign Up</Link>
+                            <Link to="/login" className="home-login">Log In</Link> or <Link to="/signup" className="home-signup">Sign Up</Link>
                     </p>
                 )}
             </div>

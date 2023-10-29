@@ -11,7 +11,7 @@ const App = () => {
     <AuthProvider>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Home />} /> 
+          <Route exact path="/firebase-auth" element={<Home />} /> 
             <Route exact path="/dashboard" element={<Dashboard />} />
             <Route exact path="/login" element={<LogIn />} />
             <Route exact path="/signup" element={<SignUp />} />
