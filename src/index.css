@@ -1,13 +1,100 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.welcome{
+    width: 300px;
+    height: 200px;
+    border: 1px solid #04AA6D;
+    border-radius: 40px;
+    padding: 20px;
+    position: relative;
 }
+
+.welcome h1{
+    text-align: center;
+}
+
+.welcome .home-login-signup{
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.welcome .home-signup, .home-login{
+    background: #04AA6D;
+    color: #ffffff;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+
+
+
+.form-content{
+    height: 500px;
+    display: grid;
+    place-items: center;
+}
+
+form{
+    width: 500px;
+    border: 1px solid #04AA6D;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+/* Full-width input fields */
+input[type=email],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=email]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+
+/* Small screens */
+@media screen and (max-width: 500px) {
+
+    form {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form-content{
+        height: 650px;
+        padding: 20px;
+    }
+}
+
