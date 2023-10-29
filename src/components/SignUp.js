@@ -16,7 +16,7 @@ const SignUp = () => {
         }
     };
     if (currentUser) {
-        return <Navigate to="firebase-auth/dashboard" />;
+        return <Navigate to="/dashboard" />;
     }
     return (
         <div className="form-content">
