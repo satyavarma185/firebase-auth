@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/firebase-auth/static/css/main.4463b26a.css",
-    "main.js": "/firebase-auth/static/js/main.d6dcb85d.js",
+    "main.css": "/firebase-auth/static/css/main.ec258599.css",
+    "main.js": "/firebase-auth/static/js/main.43c5f8f9.js",
+    "static/media/image1.png": "/firebase-auth/static/media/image1.17509d265ea0eca61d87.png",
+    "static/media/image4.png": "/firebase-auth/static/media/image4.a11d57755f5050f52a0d.png",
+    "static/media/image2.png": "/firebase-auth/static/media/image2.24b1b9487a54dc821f30.png",
+    "static/media/image3.png": "/firebase-auth/static/media/image3.f3b4a445f64ef5528f38.png",
     "index.html": "/firebase-auth/index.html",
-    "main.4463b26a.css.map": "/firebase-auth/static/css/main.4463b26a.css.map",
-    "main.d6dcb85d.js.map": "/firebase-auth/static/js/main.d6dcb85d.js.map"
+    "main.ec258599.css.map": "/firebase-auth/static/css/main.ec258599.css.map",
+    "main.43c5f8f9.js.map": "/firebase-auth/static/js/main.43c5f8f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4463b26a.css",
-    "static/js/main.d6dcb85d.js"
+    "static/css/main.ec258599.css",
+    "static/js/main.43c5f8f9.js"
   ]
 }
